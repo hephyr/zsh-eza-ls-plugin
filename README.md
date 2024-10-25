@@ -1,29 +1,24 @@
-# zsh-exa-ls-plugin
+# zsh-eza-ls-plugin
 
-This zsh plugin enables a number of aliases allowing `exa`, to act as a drop-in
+This zsh plugin enables a number of aliases allowing `eza`, to act as a drop-in
 replacement for `ls` and `tree`.
-
-This plugin is inspired by [MohamedElashri/exa-zsh](https://github.com/MohamedElashri/exa-zsh)
-and [zpm-zsh/ls](https://github.com/zpm-zsh/ls)
 
 ## Installation
 
-### Install exa
-Install [`exa`](https://the.exa.website). See
-[exa installation](https://the.exa.website/#installation) for platform specific
-installation instructions.
+### Install eza
+Install [`eza`](https://github.com/eza-community/eza).
 
 ### Next (Manually)
 Next, download this repo into your custom plugins directory. For my installation
 using [Oh My Zsh](https://ohmyz.sh/), Clone the repo to
 `~/.oh-my-zsh/custom/plugins`.
 
-Finally, add `zsh-exa-plugin` to the plugins array of your zshrc file:
+Finally, add `zsh-eza-plugin` to the plugins array of your zshrc file:
 
 ```sh
-plugins=(... zsh-exa-ls-plugin)
+plugins=(... zsh-eza-ls-plugin)
 ```
 
 ### Next (zplug)
 
-Add `zplug birdhackor/zsh-exa-ls-plugin` to your `~/.zshrc` and re-open your terminal session.
+Add `zplug hephyr/zsh-eza-ls-plugin` to your `~/.zshrc` and re-open your terminal session.
